@@ -1,13 +1,13 @@
 // ignore_for_file: avoid_print
 
 import 'package:flutter/material.dart';
+import 'globals.dart' as globals;
 
 class Result extends StatelessWidget {
   final int resultScore;
   final VoidCallback resetHandler;
 
   const Result(this.resultScore, this.resetHandler, {super.key});
-
   String get finalResult {
     String result;
     if (resultScore == 3) {
@@ -30,6 +30,17 @@ class Result extends StatelessWidget {
     return result;
   }
 
+
+  int get finalScore {
+    print(globals.scoreList);
+    globals.scoreList.add(resultScore);
+    print(globals.scoreList);
+    globals.scoreList.sort(((a, b) => b.compareTo(a)));
+    print(globals.scoreList);
+    int highestScore = globals.scoreList.elementAt(0);
+    return highestScore;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Center(
@@ -46,7 +57,7 @@ class Result extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
           Text(
-            'Score: ' '$resultScore/3',
+            'Score: ' '$resultScore/3' '\nHighest Score: ' '$finalScore',
             style: const TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
             textAlign: TextAlign.center,
           ),
