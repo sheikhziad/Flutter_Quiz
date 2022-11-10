@@ -45,9 +45,6 @@ class Result extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    AppBar(
-      title: Text('$finalScore/3 hi'),
-    );
     return Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
