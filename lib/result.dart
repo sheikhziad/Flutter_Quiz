@@ -30,19 +30,24 @@ class Result extends StatelessWidget {
     return result;
   }
 
-
   int get finalScore {
-    print(globals.scoreList);
+    List<int> distinct;
     globals.scoreList.add(resultScore);
     print(globals.scoreList);
-    globals.scoreList.sort(((a, b) => b.compareTo(a)));
-    print(globals.scoreList);
-    int highestScore = globals.scoreList.elementAt(0);
+    distinct = globals.scoreList.toSet().toList();
+    print(distinct);
+    distinct.sort(((a, b) => b.compareTo(a)));
+    print(distinct);
+    int highestScore = distinct.elementAt(0);
+    print(highestScore);
     return highestScore;
   }
 
   @override
   Widget build(BuildContext context) {
+    AppBar(
+      title: Text('$finalScore/3 hi'),
+    );
     return Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
