@@ -1,7 +1,7 @@
 # Flutter_Quiz_app
-<hr>
+
 ### Simple Quiz app with 3 questions and a result page showing your current score and the best score.
-<hr>
+
 ## Screen: Q1
 ![screen1](https://user-images.githubusercontent.com/54035935/201267572-e07a3ac0-8491-44fe-a64c-51199d2a9df1.png)
 
