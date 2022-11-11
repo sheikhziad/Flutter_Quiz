@@ -12,4 +12,4 @@
 ![screen3](https://user-images.githubusercontent.com/54035935/201267617-4a6702e5-2eaa-41c3-a9dd-8e424352a38a.png)
 
 ## Screen: Result
-![result](https://user-images.githubusercontent.com/54035935/201267631-84b102d6-0cb6-4212-9735-412fe1e1a4cd.png)
+![Result](https://user-images.githubusercontent.com/54035935/201268629-ae9442db-4f06-4ccc-b37b-c3841f9b420c.png)
