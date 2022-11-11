@@ -49,7 +49,7 @@ class Result extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Padding(padding: EdgeInsets.only(top: 100.0)),
+          const Padding(padding: EdgeInsets.only(top: 120.0)),
           Text(
             "$finalResult!",
             style: const TextStyle(
@@ -64,13 +64,7 @@ class Result extends StatelessWidget {
             style: const TextStyle(
               fontSize: 36, 
               fontWeight: FontWeight.bold,
-              color: Color.fromARGB(255, 68, 0, 255),
-              height: 1.2),
-            textAlign: TextAlign.center,
-          ),
-          Text(
-            'Highest Score: ' '$finalScore/3',
-            style: const TextStyle(fontSize: 36, fontWeight: FontWeight.bold,height: 1.6),
+            ),
             textAlign: TextAlign.center,
           ),
           Padding(

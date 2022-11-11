@@ -78,12 +78,18 @@ class _myAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        appBar: AppBar(
+          title: Text('Best Score: ${Result(totalScore, resetQuiz).finalScore}/3',
+          ),
+          backgroundColor: const Color.fromARGB(255, 68, 0, 255),
+          elevation: 0.0,
+        ),
         body: ListView(
           children: [
             ClipPath(
               clipper: WaveClipperOne(),
               child: Container(
-                height: 120,
+                height: 100,
                 color: const Color.fromARGB(255, 68, 0, 255),
                 child: const Center(
                   child: Text(
@@ -92,6 +98,7 @@ class _myAppState extends State<MyApp> {
                       fontSize: 25.0,
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
+                      height: -0.5,
                     ),
                   ),
                 ),
