@@ -3,13 +3,13 @@
 ### Simple Quiz app with 3 questions and a result page showing your current score and the best score.
 
 ## Screen: Q1
-![screen1](https://user-images.githubusercontent.com/54035935/201267572-e07a3ac0-8491-44fe-a64c-51199d2a9df1.png)
+![](2022-11-11-14-40-24.png)
 
 ## Screen: Q2
-![screen2](https://user-images.githubusercontent.com/54035935/201267596-272b2580-ebc9-45d9-8ad4-4ebff8b20d91.png)
+![](2022-11-11-14-40-57.png)
 
 ## Screen: Q3
-![screen3](https://user-images.githubusercontent.com/54035935/201267617-4a6702e5-2eaa-41c3-a9dd-8e424352a38a.png)
+![](2022-11-11-14-41-25.png)
 
 ## Screen: Result
-![Result](https://user-images.githubusercontent.com/54035935/201268629-ae9442db-4f06-4ccc-b37b-c3841f9b420c.png)
+![](2022-11-11-14-41-42.png)
